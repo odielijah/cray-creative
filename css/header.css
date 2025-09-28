@@ -1,6 +1,6 @@
 .logo {
   width: 34px;
-  height: 63px;
+  height: auto;
 }
 .cray-header {
   width: 100%;
@@ -160,6 +160,9 @@
   }
 }
 @media only screen and (max-width: 1064px) {
+  .cray-header .logo {
+    width: 25px;
+  }
   .nav-links {
     position: fixed;
     top: -100%;
