@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/bebas-neue");
 
 @font-face {
   font-family: "Beauty";
@@ -14,6 +13,14 @@
   src: url("../fonts/moon-get/moon_get-Heavy.woff2") format("woff2"),
     url("../fonts/moon-get/moon_get-Heavy.woff") format("woff");
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebas-neue/BebasNeueBook.woff2") format("woff2"),
+    url("../fonts/bebas-neue/BebasNeueBook.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }

@@ -197,14 +197,22 @@
   .hero-card {
     display: none;
   }
-}
-@media only screen and (max-width: 980px) {
   .hero {
-    min-height: 900px;
+    min-height: 500px !important;
+  }
+}
+@media only screen and (max-width: 1064px) {
+  .hero {
+    max-height: 700px !important;
     padding: 0 1rem;
   }
 }
 @media only screen and (max-width: 1375px) {
+  .hero {
+    padding-top: 10rem;
+    min-height: 800px;
+    padding-bottom: 8rem;
+  }
   .memoji {
     width: 250px;
     top: -12rem;
