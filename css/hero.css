@@ -206,6 +206,19 @@
     max-height: 700px !important;
     padding: 0 1rem;
   }
+  .portfolio-stack span:nth-child(3) {
+    transform: translate(-50%, -40px);
+  }
+  .portfolio-stack span:nth-child(2) {
+    transform: translate(-50%, -30px);
+    width: 11.8em;
+    background: var(--pink);
+  }
+  .portfolio-stack span:nth-child(1) {
+    transform: translate(-50%, -20px);
+    width: 10.8em;
+    background: var(--purple);
+  }
 }
 @media only screen and (max-width: 1375px) {
   .hero {
