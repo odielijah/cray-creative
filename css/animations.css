@@ -1,0 +1,109 @@
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Utility classes */
+.fade-up {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+.fade-down {
+  animation: fadeDown 0.8s ease-out forwards;
+}
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+.scale-in {
+  animation: scaleIn 0.7s ease-out forwards;
+}
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+.slide-up {
+  opacity: 0;
+  animation: slideUp 0.9s ease-out forwards;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease-out;
+}
+.reveal.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-up.reveal {
+  transform: translateY(40px);
+}
+.slide-up.reveal {
+  transform: translateY(80px);
+}
+.scale-in.reveal {
+  transform: scale(0.8);
+}
+.fade-up.reveal.animate,
+.slide-up.reveal.animate,
+.scale-in.reveal.animate {
+  transform: none;
+  opacity: 1;
+}

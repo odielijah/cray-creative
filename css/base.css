@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bebas-neue");
+
+@font-face {
+  font-family: "Beauty";
+  src: url("../fonts/beauty/Beauty.woff2") format("woff2"),
+    url("../fonts/beauty/Beauty.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Moon Get";
+  src: url("../fonts/moon-get/moon_get-Heavy.woff2") format("woff2"),
+    url("../fonts/moon-get/moon_get-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --white: #fff;
+  --pink: #fc27f4;
+  --purple: #9600ff;
+  --yellow: #ffea00;
+  --dark: #000;
+  --gray: #a0a0a0;
+  --light-gray: #aeaeae;
+  --light-shadow: #00000008;
+  --dark-shadow: #00000040;
+  --font-main: "Manrope", sans-serif;
+  --font-accent: "Beauty", cursive;
+  --font-display: "Bebas Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
