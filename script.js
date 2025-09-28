@@ -174,7 +174,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.2 } // reveal when 20% of element is visible
+  { rootMargin: "0px 0px -100px 0px" } // reveal when 20% of element is visible
 );
 
 reveals.forEach((el) => observer.observe(el));

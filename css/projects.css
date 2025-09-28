@@ -1,6 +1,6 @@
 .projects {
   font-family: var(--font-main);
-  padding-bottom: 7rem;
+  padding-bottom: 3.5rem;
   margin: 0 3em;
 }
 .projects-grid {
@@ -137,4 +137,7 @@
   .project-item-img-card {
     max-width: 100%;
   }
+}
+@media only screen and (max-width: 1064px) {
+
 }
