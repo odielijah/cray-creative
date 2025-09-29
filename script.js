@@ -160,7 +160,7 @@ magneticEffect(document.querySelector(".memoji"), 3, "rotate(6.33deg)");
 magneticEffect(document.querySelector(".cube-left"), 1);
 magneticEffect(document.querySelector(".cube-right"), 0.3);
 magneticEffect(document.querySelector(".ball-left"), 0.5);
-magneticEffect(document.querySelector(".ball-right"), 0.5);
+magneticEffect(document.querySelector(".ball-right"), 0.7);
 
 // Select all reveal elements
 const reveals = document.querySelectorAll(".reveal");
@@ -169,12 +169,12 @@ const observer = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("animate"); // trigger animation
-        observer.unobserve(entry.target); // remove if you only want once
+        entry.target.classList.add("animate");
+        observer.unobserve(entry.target);
       }
     });
   },
-  { rootMargin: "0px 0px -100px 0px" } // reveal when 20% of element is visible
+  { rootMargin: "0px 0px -100px 0px" }
 );
 
 reveals.forEach((el) => observer.observe(el));

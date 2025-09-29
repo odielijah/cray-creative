@@ -153,19 +153,19 @@
 }
 @media only screen and (max-width: 1064px) {
   .service-item .services-overlay {
-    height: auto !important;
-    opacity: 1 !important;
-    transform: translateY(0) !important;
+    height: auto;
+    opacity: 1;
+    transform: translateY(0);
   }
   .service-item:hover .service-content {
-    transform: none !important;
+    transform: none;
   }
   .service-item:hover img {
-    transform: none !important;
-    filter: drop-shadow(0 50px 12px rgba(0, 0, 0, 0.1)) !important;
+    transform: none;
+    filter: drop-shadow(0 50px 12px rgba(0, 0, 0, 0.3));
   }
   .service-item:hover {
-    border: 3px solid var(--dark) !important;
+    border: 3px solid var(--dark);
   }
   #design-branding {
     background: var(--yellow);
